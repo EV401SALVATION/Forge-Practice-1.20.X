@@ -1,6 +1,7 @@
 package net.donhp.practicemod.item;
 
 import net.donhp.practicemod.PracticeMod;
+import net.donhp.practicemod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,6 +21,15 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RUBY.get());
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.TOPAZ.get());
+                    }))
+                    .build());
+
+    public static final RegistryObject<CreativeModeTab> HIVE_TAB = CREATIVE_MODE_TABS.register("hive_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.SILK_BLOCK.get()))
+                    .title(Component.translatable("creativetab.hive_tab"))
+                    .displayItems(((pParameters, pOutput) -> {
+                        pOutput.accept(ModBlocks.SILK_BLOCK.get());
+                        pOutput.accept(ModBlocks.SILK_FLOOR.get());
                     }))
                     .build());
 

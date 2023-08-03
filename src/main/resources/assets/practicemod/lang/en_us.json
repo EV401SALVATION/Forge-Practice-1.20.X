@@ -3,5 +3,9 @@
   "item.practicemod.sapphire": "Sapphire",
   "item.practicemod.topaz": "Topaz",
 
-  "creativetab.minerals_tab": "Minerals"
+  "block.practicemod.silk_block": "Silk Block",
+  "block.practicemod.silk_floor": "Silk Floor",
+
+  "creativetab.minerals_tab": "Minerals",
+  "creativetab.hive_tab": "Hive"
 }

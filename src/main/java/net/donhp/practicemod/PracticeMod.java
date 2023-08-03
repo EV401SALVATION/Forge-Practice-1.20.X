@@ -1,6 +1,7 @@
 package net.donhp.practicemod;
 
 import com.mojang.logging.LogUtils;
+import net.donhp.practicemod.block.ModBlocks;
 import net.donhp.practicemod.item.ModCreativeModeTabs;
 import net.donhp.practicemod.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
@@ -30,6 +31,7 @@ public class PracticeMod
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
