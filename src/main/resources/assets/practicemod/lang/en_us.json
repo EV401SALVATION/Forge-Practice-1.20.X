@@ -5,6 +5,9 @@
 
   "block.practicemod.silk_block": "Silk Block",
   "block.practicemod.silk_floor": "Silk Floor",
+  "block.practicemod.ruby_block": "Block of Ruby",
+  "block.practicemod.sapphire_block": "Block of Sapphire",
+  "block.practicemod.topaz_block": "Block of Topaz",
 
   "creativetab.minerals_tab": "Minerals",
   "creativetab.hive_tab": "Hive"

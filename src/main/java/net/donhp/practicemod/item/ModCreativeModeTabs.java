@@ -19,8 +19,11 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.minerals_tab"))
                     .displayItems(((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.RUBY.get());
+                        pOutput.accept(ModBlocks.RUBY_BLOCK.get());
                         pOutput.accept(ModItems.SAPPHIRE.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         pOutput.accept(ModItems.TOPAZ.get());
+                        pOutput.accept(ModBlocks.TOPAZ_BLOCK.get());
                     }))
                     .build());
 

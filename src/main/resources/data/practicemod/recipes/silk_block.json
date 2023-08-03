@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "#=#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "=": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "practicemod:silk_block",
+    "count": 4
+  }
+}

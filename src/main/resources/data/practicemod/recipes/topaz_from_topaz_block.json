@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "practicemod:topaz_block"
+    }
+  ],
+  "result": {
+    "item": "practicemod:topaz",
+    "count": 9
+  }
+}
