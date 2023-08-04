@@ -18,10 +18,14 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RUBY.get()))
                     .title(Component.translatable("creativetab.minerals_tab"))
                     .displayItems(((pParameters, pOutput) -> {
+                        pOutput.accept(ModBlocks.RUBY_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_RUBY_ORE.get());
                         pOutput.accept(ModItems.RUBY.get());
                         pOutput.accept(ModBlocks.RUBY_BLOCK.get());
+                        pOutput.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBlocks.END_STONE_TOPAZ_ORE.get());
                         pOutput.accept(ModItems.TOPAZ.get());
                         pOutput.accept(ModBlocks.TOPAZ_BLOCK.get());
                     }))

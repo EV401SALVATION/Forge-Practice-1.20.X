@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.2,
+  "group": "topaz",
+  "ingredient": {
+    "item": "practicemod:end_stone_topaz_ore"
+  },
+  "result": "practicemod:topaz"
+}

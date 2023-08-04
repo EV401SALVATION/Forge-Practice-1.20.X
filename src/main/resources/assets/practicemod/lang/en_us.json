@@ -6,8 +6,12 @@
   "block.practicemod.silk_block": "Silk Block",
   "block.practicemod.silk_floor": "Silk Floor",
   "block.practicemod.ruby_block": "Block of Ruby",
+  "block.practicemod.ruby_ore": "Ruby Ore",
+  "block.practicemod.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.practicemod.sapphire_block": "Block of Sapphire",
+  "block.practicemod.nether_sapphire_ore": "Nether Sapphire Ore",
   "block.practicemod.topaz_block": "Block of Topaz",
+  "block.practicemod.end_stone_topaz_ore": "Endstone Topaz Ore",
 
   "creativetab.minerals_tab": "Minerals",
   "creativetab.hive_tab": "Hive"
